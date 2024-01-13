@@ -4,14 +4,15 @@ import com.betrybe.museumfinder.model.Coordinate;
 
 /**
  * Record Museum.
- * @param id
- * @param name
- * @param description
- * @param address
- * @param collectionType
- * @param subject
- * @param url
- * @param coordinate
+ *
+ * @param id id.
+ * @param name name.
+ * @param description description.
+ * @param address address.
+ * @param collectionType collectionType.
+ * @param subject subject.
+ * @param url url.
+ * @param coordinate coordinate.
  */
 public record MuseumDto(
     Long id,
